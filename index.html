@@ -3,9 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fruit Burst</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <!-- daisy-ui and tailwind-css -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- google fonts lato -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<!-- custom css -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        }
+      }
+    }
+  }
+</script>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/9ddd0122c8.js" crossorigin="anonymous"></script>
+<style>
+  .font-lato{
+    font-family: 'Lato', sans-serif;
+  }
+</style>
 </head>
-<body>
-  
+<body class="font-lato">
+  <header class="container mx-auto">
+    <!-- navbar section -->
+      <div class=" mt-4 container mx-auto flex justify-between h-28  lg:bg-[#F85559] px-10 text-black lg:text-white  lg:rounded-[600px]">
+        <ul class="items-stretch hidden space-x-3 lg:flex lg:items-center gap-6">
+          <li class="flex">
+            <a href="">Home</a>
+          </li>
+          <li class="flex">
+            <a href="">About Us</a>
+          </li>
+          <li class="flex">
+           <a href="">Shop</a>
+          </li>
+          <li class="flex">
+           <a href="">All Fruits</a>
+          </li>
+        </ul>
+        <a class="flex items-center p-2">
+         <div class="flex items-center gap-4">
+          <img src="./images/logo.png" alt="">
+          <h1 class=" text-sm md:text-4xl font-bold">Fruit Burst</h1>
+         </div>
+        </a>
+        <div class="flex items-center md:space-x-4">
+          <div class="relative">
+            <div class=" invisible lg:visible s bg-white flex items-center rounded-2xl ">
+              <input type="search" name="Search" placeholder="Search Here" class="w-32 py-2 pl-10 text-sm rounded-2xl sm:w-auto focus:outline-none">
+              <i class="fa-solid fa-magnifying-glass text-black pr-2"></i>
+            </div>
+          </div>
+        </div>
+        <button class="p-4 lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-gray-100">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      <!-- navbar section ends -->
+    </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
