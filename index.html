@@ -244,7 +244,9 @@
 
 <!-- card section  -->
 <section class="container mx-auto mt-16">
-  <div class="card bg-base-100 shadow-xl">
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+   <!-- 1st card -->
+   <div class="card bg-base-100 shadow-xl">
     <figure class="px-10 pt-10">
       <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
     </figure>
@@ -262,7 +264,7 @@
     </div>
     <div class="flex justify-center mt-4">
       <!-- Open the modal using ID.showModal() method -->
-  <button class="text-[#F85559]" onclick="my_modal_1.showModal()">Details</button>
+  <button class="text-[#F85559] mb-10" onclick="my_modal_1.showModal()">Details</button>
   <dialog id="my_modal_1" class="modal">
     <form method="dialog" class="modal-box">
       <figure class="px-10 pt-10">
@@ -291,10 +293,160 @@
   </dialog>
     </div>
   </div>
-  
-  <!-- card section ending -->
+  <!-- 1st card ending -->
+   <!-- 2nd card -->
+   <div class="card bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center space-y-5">
+      <h2 class="card-title">12.90$ - 18.85$</h2>
+      <hr class="w-1/2">
+      <p>Orange</p>
+    </div>
+    <div class="rating flex justify-center">
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]"  checked/>
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    </div>
+    <div class="flex justify-center mt-4">
+      <!-- Open the modal using ID.showModal() method -->
+  <button class="text-[#F85559] mb-10" onclick="my_modal_2.showModal()">Details</button>
+  <dialog id="my_modal_2" class="modal">
+    <form method="dialog" class="modal-box">
+      <figure class="px-10 pt-10">
+        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div>
+        <div class="card-body items-center text-center space-y-5">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+          <p>Zest for Life: Savor the Tangy Sweetness of Nature's Sunshine - Juicy, Nutritious, and Refreshing, Just for You!</p>
+        </div>
+        <div class="rating flex justify-center">
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked/>
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        </div>
+      </div>
+      <div class="modal-action justify-center">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn bg-white  text-[#F85559]">Close</button>
+        <button class="btn bg-main-btn text-white">Buy Now</button>
+        
+      </div>
+    </form>
+  </dialog>
+    </div>
+  </div>
+  <!-- 2nd card ending -->
+   <!-- 3rd card -->
+   <div class="card bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center space-y-5">
+      <h2 class="card-title">12.90$ - 18.85$</h2>
+      <hr class="w-1/2">
+      <p>Red Dragon</p>
+    </div>
+    <div class="rating flex justify-center">
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]"  checked/>
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    </div>
+    <div class="flex justify-center mt-4">
+      <!-- Open the modal using ID.showModal() method -->
+  <button class="text-[#F85559] mb-10" onclick="my_modal_3.showModal()">Details</button>
+  <dialog id="my_modal_3" class="modal">
+    <form method="dialog" class="modal-box">
+      <figure class="px-10 pt-10">
+        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div>
+        <div class="card-body items-center text-center space-y-5">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+          <p>Exotic Elegance: Taste the Vibrant Allure of Red Dragon Fruit - A Tropical Delight Packed with Flavors and Antioxidants!</p>
+        </div>
+        <div class="rating flex justify-center">
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked/>
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        </div>
+      </div>
+      <div class="modal-action justify-center">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn bg-white  text-[#F85559]">Close</button>
+        <button class="btn bg-main-btn text-white">Buy Now</button>
+        
+      </div>
+    </form>
+  </dialog>
+    </div>
+  </div>
+  <!-- 3rd card ending -->
+    <!-- 4th card -->
+    <div class="card bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center space-y-5">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <hr class="w-1/2">
+        <p>Banana</p>
+      </div>
+      <div class="rating flex justify-center">
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]"  checked/>
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+      <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+      </div>
+      <div class="flex justify-center mt-4">
+        <!-- Open the modal using ID.showModal() method -->
+    <button class="text-[#F85559] mb-10" onclick="my_modal_4.showModal()">Details</button>
+    <dialog id="my_modal_4" class="modal">
+      <form method="dialog" class="modal-box">
+        <figure class="px-10 pt-10">
+          <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div>
+          <div class="card-body items-center text-center space-y-5">
+            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <p>Naturally Nourishing: Fuel Your Day with Creamy Goodness - Packed with Essential Nutrients for a Healthy You!</p>
+          </div>
+          <div class="rating flex justify-center">
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked/>
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+          <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+          </div>
+        </div>
+        <div class="modal-action justify-center">
+          <!-- if there is a button in form, it will close the modal -->
+          <button class="btn bg-white  text-[#F85559]">Close</button>
+          <button class="btn bg-main-btn text-white">Buy Now</button>
+        </div>
+      </form>
+    </dialog>
+      </div>
+    </div>
+    <!-- 4th card ending -->
+ </div>
 </section>
-
+ <!-- card section ending -->
+ <!-- team section -->
+ <section class="mt-28">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam doloremque libero voluptates aspernatur doloribus ipsum, qui blanditiis adipisci est aliquam sit? Ea illum odio dolor dolores amet debitis repellat, rem aspernatur quos ipsum libero, omnis non voluptates, natus magnam maiores. Alias sit facilis, accusamus dignissimos, soluta sequi, iusto atque corrupti minima unde vero? Assumenda eum qui similique voluptas! Repellendus delectus accusantium, dignissimos recusandae iste quaerat minus, totam eligendi molestiae voluptates incidunt quas odit possimus maxime ipsam nobis quos enim quis? Voluptatibus accusantium delectus, impedit veniam eligendi ipsa nisi possimus molestias atque deserunt nobis est non quasi expedita pariatur magni!
+ </section>
 
   </main>
   <footer>
