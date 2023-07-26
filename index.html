@@ -213,15 +213,15 @@
 
     <!-- deal of the day section -->
 <div  class="container mx-auto flex flex-col gap-8  px-5 justify-center md:flex-row md:gap-0">
-  <div class="flex-1 space-y-5 text-center lg:text-left">
+  <div class="flex-1 space-y-5 text-center md:text-left">
 <h1 class="text-5xl font-bold">
   Deal of the day
 </h1>
 <p>
-  Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+  Discover incredible discounts on a wide range of top-notch products, carefully curated for you. Whether it's gadgets, fashion, or home essentials, our Deal of the Day has something for everyone. Don't let this opportunity slip away – shop now and elevate your lifestyle with fantastic savings!  
 </p>
   </div>
-  <div class="flex-1 flex justify-center lg:justify-end space-x-4">
+  <div class="flex-1 flex justify-center md:justify-end space-x-4">
 <div>
   <h1 class="text-5xl font-bold">29  &ratio;</h1>
   <p>Days</p>
@@ -241,6 +241,60 @@
   </div>
 </div>
 <!-- deal of the day section ending-->
+
+<!-- card section  -->
+<section class="container mx-auto mt-16">
+  <div class="card bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center space-y-5">
+      <h2 class="card-title">12.90$ - 18.85$</h2>
+      <hr class="w-1/2">
+      <p>Apples</p>
+    </div>
+    <div class="rating flex justify-center">
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]"  checked/>
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+    </div>
+    <div class="flex justify-center mt-4">
+      <!-- Open the modal using ID.showModal() method -->
+  <button class="text-[#F85559]" onclick="my_modal_1.showModal()">Details</button>
+  <dialog id="my_modal_1" class="modal">
+    <form method="dialog" class="modal-box">
+      <figure class="px-10 pt-10">
+        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div>
+        <div class="card-body items-center text-center space-y-5">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+          <p>Apple: Nature's Delicious Powerhouse!</p>
+        </div>
+        <div class="rating flex justify-center">
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" checked/>
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-[#F85559]" />
+        </div>
+      </div>
+      <div class="modal-action justify-center">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn bg-white  text-[#F85559]">Close</button>
+        <button class="btn bg-main-btn text-white">Buy Now</button>
+        
+      </div>
+    </form>
+  </dialog>
+    </div>
+  </div>
+  
+  <!-- card section ending -->
+</section>
+
 
   </main>
   <footer>
